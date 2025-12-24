@@ -96,7 +96,9 @@ class Osaragi(App):
         task_container.remove_children()
 
 
-
-if __name__ == "__main__":
+def main():
     app = Osaragi()
     app.run()
+    
+if __name__ == "__main__":
+    main()
